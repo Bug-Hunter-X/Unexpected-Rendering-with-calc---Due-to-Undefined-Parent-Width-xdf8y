@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly, leading to unexpected rendering.  Specifically, the calculation `calc(100% - 50px)` is applied to the width of an element within a container that doesn't have a defined width itself.  This results in the element not being rendered correctly, potentially disappearing or overflowing its parent.
