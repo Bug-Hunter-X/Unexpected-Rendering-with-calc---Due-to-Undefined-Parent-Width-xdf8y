@@ -1,0 +1,13 @@
+/* bugSolution.css */
+.container {
+  width: 80%; /* Define the width of the container */
+}
+
+.element {
+  width: calc(100% - 50px);
+}
+
+/* Alternative solution if parent width cannot be defined */
+.element {
+  width: 450px; /* Fixed width if parent width is dynamic */
+} 
